@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="ÉVORA Perfume: handcrafted luxury fragrances. Shop Aurelia, Rouge Impérial, Tulipe d'Or and more.">
+<meta name="theme-color" content="#15100d">
+<link rel="icon" type="image/png" href="assets/logo-mark.png">
+<title>ÉVORA Perfume · Revel The Beauty Inside You</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="prog" id="prog"></div><div class="cur" id="cur"></div>
+<div id="intro"><div class="ib"><img class="il" src="assets/logo-mark.png" alt=""><div class="iw"><span>É</span><span>V</span><span>O</span><span>R</span><span>A</span></div><div class="it">PERFUME</div><i class="iln"></i></div></div>
+<header>
+  <div class="logo"><img src="assets/logo-mark.png" alt=""><span>ÉVORA</span></div>
+  <nav><a href="#top">Home</a><a href="#shop">Collection</a><a href="#about">About</a></nav>
+  <div class="hbtns"><button class="icb burger" id="bg" onclick="menu()" aria-label="Menu">☰</button><button class="icb noturn" id="ab" onclick="acct()" aria-label="My account">👤</button><button class="icb" id="th" onclick="theme()" aria-label="Toggle theme">◐</button><button class="cartbtn" id="cb" onclick="toggle()">Cart (<span id="cnt">0</span>)</button></div>
+</header>
+<div class="mnav" id="mnav"><a href="#top" onclick="menu()">Home</a><a href="#shop" onclick="menu()">Collection</a><a href="#about" onclick="menu()">About</a></div>
+<main id="top">
+<section class="hero"><div class="dust" id="dust"></div>
+  <div>
+    <div class="tag rise" style="animation-delay:3.1s">New Collection</div>
+    <h1 class="rise" style="animation-delay:3.3s">Revel The Beauty<br>Inside You...</h1>
+    <p class="rise" style="animation-delay:3.5s">Handcrafted fragrances in small batches. Find the scent that speaks before you do.</p>
+    <div class="btns rise" style="animation-delay:3.7s"><a class="btn pri" href="#shop">Shop Now</a><a class="btn" href="#about">Our Story</a></div>
+  </div>
+  <div class="stage rise" style="animation-delay:3.4s">
+    <div class="glow"></div>
+    <span class="spark" style="top:8%;left:12%"></span><span class="spark" style="top:30%;right:4%;animation-delay:1s"></span><span class="spark" style="bottom:14%;left:6%;animation-delay:2s"></span>
+    <div class="frame" id="frame"><img src="assets/main.png" alt="ÉVORA perfume bottle with a golden mist"></div>
+  </div>
+</section>
+<div class="mq"><div>Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; Eau de Parfum &nbsp;✦&nbsp; Handcrafted &nbsp;✦&nbsp; Small Batch &nbsp;✦&nbsp; Free Shipping &nbsp;✦&nbsp; </div></div>
+<div class="strip">
+  <div><span class="ic">🚚</span><span><b>Free Shipping</b><small>On all orders</small></span></div>
+  <div><span class="ic">✔️</span><span><b>Satisfaction Guarantee</b><small>Love it or return it</small></span></div>
+  <!-- CHANGED: was a <div>, now a <button> that opens the chatbot -->
+  <button class="ast" id="astBtn" onclick="chatToggle()" aria-label="Open FAQ chat"><span class="ic">🎧</span><span><b>24/7 Assistance</b><small>Always here to help</small></span></button>
+<a class="wa" id="wa" href="#" target="_blank" rel="noopener"><span class="ic">💬</span><span><b>Order on WhatsApp</b><small>Chat with us to place your order</small></span></a>
+</div>
+<section class="shop" id="shop">
+  <h2 class="rv">The Collection</h2>
+  <div class="sub">Pick your signature scent</div>
+  <div class="filters" id="filters"></div>
+  <div class="grid" id="grid"></div>
+</section>
+<section class="shop" id="about"><div class="story">
+ <div class="rv"><div class="tag">Our Story</div><h2 style="margin:10px 0 14px">Made with intention</h2>
+ <p style="color:var(--mut);line-height:1.8">Behind ÉVORA is a young dreamer, creator, and entrepreneur.<br>
+Currently pursuing a B.Tech in Computer Science Engineering, specializing in Cloud Computing, I discovered another passion beyond technology — <b>the art of fragrance</b>.
+ÉVORA was born from a simple belief: a fragrance should be more than a scent.<br>
+This is just the beginning!</p>
+ <div class="pil"><div><b>01</b><br>Small batches</div><div><b>02</b><br>Rare ingredients</div><div><b>03</b><br>Made to last</div></div></div>
+</div></section>
+</main>
+<!-- <footer><img src="assets/logo-full.png" alt="ÉVORA Perfume" style="width:130px;display:block;margin:0 auto 12px">© ÉVORA Perfume · Crafted with intention, inspired by memories</footer> -->
+ <footer>
+  <img src="assets/logo-full.png" alt="ÉVORA Perfume" style="width:130px;display:block;margin:0 auto 12px">
+
+  <!-- NEW: owner details + social links -->
+  <div class="owner">
+    <div class="oname">Yash Gupta</div>
+    <div class="orole">Founder, ÉVORA · B.Tech student at Parul University</div>
+    <div class="socials">
+      <a class="soc" href=https://www.instagram.com/_yashgupta_.17?stkn=OWtqZXR3emsxMWxztarget="_blank" rel="noopener" aria-label="ÉVORA on Instagram">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        <span>INSTAGRAM</span>
+      </a>
+      <a class="soc" href=https://www.linkedin.com/in/yash-kumar-6a36a3410/ target="_blank" rel="noopener" aria-label="Yash Gupta on LinkedIn">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11.5H3V9.75zm7 0h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v5.85h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75v5.29h-4V9.75z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+  © ÉVORA Perfume · Crafted with intention, inspired by memories
+</footer>
+<div class="ov" id="ov" onclick="closeAll()"></div>
+<div class="qv" id="qv"><button class="close x" onclick="closeAll()">✕</button><div class="qvimg"><img id="qi" alt=""></div>
+<div class="qvin"><div class="tag" id="qc"></div><h2 id="qn"></h2><p class="qd" id="qd"></p><div class="pyr" id="qp"></div><div class="szl">Size</div><div class="szs" id="qs"></div><button class="go" id="qa"></button></div></div>
+<div class="toast" id="toast"><img id="ti" alt=""><span id="tm"></span></div>
+<aside class="drawer" id="drawer">
+  <div style="display:flex;justify-content:space-between;align-items:center"><h2 style="margin:0;font-size:24px">Your cart</h2><button class="close" onclick="toggle()">Close</button></div>
+  <div class="items" id="items"></div>
+  <div class="total"><span>Total</span><span id="tot">₹0</span></div>
+  <input id="nm" placeholder="Full name" autocomplete="name"><input id="ph" type="tel" inputmode="tel" placeholder="Phone number" autocomplete="tel"><input id="ad" placeholder="Address" autocomplete="street-address"><div class="two"><input id="ct" placeholder="City"><input id="pn" inputmode="numeric" maxlength="6" placeholder="PIN code"></div><input id="nt" placeholder="Note (optional)"><label class="sv"><input type="checkbox" id="sv" checked> Save my details on this device</label><div class="err" id="err"></div>
+  <button class="go" onclick="order()">Place order on WhatsApp</button>
+</aside>
+<aside class="drawer" id="acc"><div style="display:flex;justify-content:space-between;align-items:center"><h2 id="ah" style="margin:0;font-size:24px">My account</h2><button class="close" onclick="closeAll()">Close</button></div>
+<div class="atabs"><button class="chip on" data-t="profile" onclick="tabTo('profile')">Profile</button><button class="chip" data-t="orders" onclick="tabTo('orders')">Orders</button><button class="chip" data-t="wish" onclick="tabTo('wish')">Wishlist</button></div>
+<div class="items" id="accb"></div></aside>
+<div class="done" id="done"><div class="dn"><div class="ck">✓</div><h2 style="margin:0 0 8px">Thank you!</h2><p style="color:var(--mut);line-height:1.6;margin:0 0 20px">Your order message is ready in WhatsApp. Press Send there to confirm your order.</p><button class="go" onclick="finish()">Continue shopping</button></div></div>
+
+<!-- ===== NEW: FAQ CHATBOT (start) ===== -->
+<button class="chatfab" id="chatFab" onclick="chatToggle()" aria-label="Chat with us">💬</button>
+<section class="chat" id="chat" aria-label="ÉVORA assistant">
+  <div class="chh"><div><b>ÉVORA Assistant</b><small>Ask us anything</small></div><button class="chx" onclick="chatToggle()" aria-label="Close chat">✕</button></div>
+  <div class="chm" id="chm"></div>
+  <div class="chq" id="chq"></div>
+  <div class="chi"><input id="chin" placeholder="Type your question..." autocomplete="off"><button onclick="chatSend()" aria-label="Send">➤</button></div>
+</section>
+<!-- ===== NEW: FAQ CHATBOT (end) ===== -->
+
+<script src="script.js"></script>
+</body>
+</html>
